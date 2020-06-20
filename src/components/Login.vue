@@ -14,11 +14,11 @@
                 :rules="loginFormRules"
                 ref="loginFormRef"
             >
-                <!-- 用户名 -->
+                <!-- 账户 -->
                 <el-form-item prop="username">
                     <el-input
                         prefix-icon="iconfont icon-mimaicon"
-                        placeholder="admin"
+                        placeholder="账户: admin"
                         v-model="loginForm.username"
                     ></el-input>
                 </el-form-item>
@@ -26,7 +26,7 @@
                 <el-form-item prop="password">
                     <el-input
                         prefix-icon="iconfont icon-yonghu"
-                        placeholder="123456"
+                        placeholder="密码：123456"
                         show-password
                         v-model="loginForm.password"
                     ></el-input>
