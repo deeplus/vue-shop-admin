@@ -3,6 +3,7 @@ import axios from 'axios'
 import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
+import './assets/less/index.less'
 
 axios.defaults.baseURL = 'http://timemeetyou.com:8889/api/private/v1/'
 Vue.prototype.$http = axios
