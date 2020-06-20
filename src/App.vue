@@ -11,4 +11,8 @@
     }
 </script>
 
-<style></style>
+<style>
+    #app {
+        height: 100%;
+    }
+</style>
