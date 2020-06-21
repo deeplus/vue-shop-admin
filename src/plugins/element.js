@@ -8,7 +8,14 @@ import {
     Container,
     Aside,
     Header,
-    Main
+    Main,
+    Menu,
+    Submenu,
+    MenuItem,
+    Dropdown,
+    DropdownMenu,
+    DropdownItem,
+    Avatar
 } from 'element-ui'
 
 Vue.use(Button)
@@ -20,3 +27,10 @@ Vue.use(Container)
 Vue.use(Aside)
 Vue.use(Header)
 Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Avatar)
